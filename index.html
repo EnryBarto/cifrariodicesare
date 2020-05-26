@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Cifrario di Cesare</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<script type="text/javascript" src="js.js"></script>
+	</head>
+
+	<body>
+		<div class="notencrypted">
+			<textarea id="notencrypted_text"></textarea>
+		</div>
+		<div class="buttons">
+			<input type="number" min="0" max="26" id="key">
+			<button onclick="encrypt()">Cripta!</button>
+			<button onclick="decrypt()">Deripta!</button>
+		</div>
+		<div class="encrypted">
+			<textarea id="encrypted_text" readonly></textarea>
+		</div>
+	</body>
+
+</html>
