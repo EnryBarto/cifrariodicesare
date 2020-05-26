@@ -9,14 +9,19 @@
 	</head>
 
 	<body>
+
+		<h3>Per il momento la calcolatrice funziona con tutte le lettere e simboli tranne che con le maiuscole</h3>
+
 		<div class="notencrypted">
 			<textarea id="notencrypted_text"></textarea>
 		</div>
+		<br>
 		<div class="buttons">
-			<input type="number" min="0" max="26" id="key">
+			<input type="number" min="0" id="key">
 			<button onclick="encrypt()">Cripta!</button>
 			<button onclick="decrypt()">Decripta!</button>
 		</div>
+		<br>
 		<div class="encrypted">
 			<textarea id="encrypted_text"></textarea>
 		</div>
